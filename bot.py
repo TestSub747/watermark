@@ -8,7 +8,7 @@ from reportlab.lib.pagesizes import letter
 import io
 
 # Get token from environment variable
-TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+TOKEN = os.getenv('8129059120:AAEaL0yPv555P_HINWSYTxcLQ4rMQco7GIg')
 if not TOKEN:
     raise ValueError("No token found! Set TELEGRAM_BOT_TOKEN environment variable")
 
